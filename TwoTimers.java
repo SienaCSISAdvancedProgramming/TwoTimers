@@ -3,7 +3,7 @@
  * have a class named Timer
  *
  * @author Jim Teresco
- * @version Spring 2020
+ * @version Spring 2022
  *
  * Based on example from Darren Lim
  * Siena College, Computer Science 225, Spring 2017
@@ -17,8 +17,8 @@ public class TwoTimers {
 
     public static void main(String[] args) {
 
-	// this will cause an error: Java doesn't know which Timer
-	// to use!
+        // this will cause an error: Java doesn't know which Timer
+        // to use!
         new Timer();
     }
 
